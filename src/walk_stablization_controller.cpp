@@ -94,8 +94,6 @@ class walk_stablization_controller : public cnoid::SimpleController
 
   Vector3 zmp;
 
-  ros::NodeHandle node;
-
 public:
 
   Vector3 returnZMP(Vector3 &zmp){
