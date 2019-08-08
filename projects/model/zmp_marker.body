@@ -1,0 +1,27 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: radian
+name: ZMP_Marker
+
+links:
+  -
+    name: body
+    jointType: free
+    translation: [ 0, 0, 0.0 ]
+    rotatoin: [ 0, 0, 1, 0 ]
+    elements:
+      -
+        type: RigidBody
+        mass: 2.0
+        inertia: [
+          0.1, 0, 0,
+          0, 0.1, 0,
+          0, 0, 0.1 ]
+        elements:
+          Shape:
+            geometry:
+              type: Sphere
+              radius: 0.03
+            appearance:
+              material:
+                diffuseColor: [ 1, 1, 0 ]

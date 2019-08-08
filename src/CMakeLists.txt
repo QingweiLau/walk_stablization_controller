@@ -1,0 +1,4 @@
+include_directories(include)
+add_cnoid_simple_controller(walk_stablization_controller walk_stablization_controller.cpp)
+add_cnoid_simple_controller(MarkerController MarkerController.cpp)
+#add_cnoid_simple_controller(CPMarkerController MarkerController.cpp)
