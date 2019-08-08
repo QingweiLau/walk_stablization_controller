@@ -34,6 +34,12 @@ Once you have set up your catkin workspace and successfully build all four packa
   cd /to/your/catkin_ws/src/dir
   catkin build walk_stablization_controller
   ```
+ after that, the built controller should be in `/catkin_ws/build/walk_stablization_controller/src/lib/choreonoid-1.8/simplecontroller`
+  ```
+  cd /to/walk_stablization_controller/projects/dir
+  choreonoid Thormang3Walk.cnoid
+  ```
+  and change the specify of simple controller for robot to `walk_stablization_controller.so` and the marker to `MarkerController.so` in the aforementioned controller directory.
 
 ## Acknowledgment
 
