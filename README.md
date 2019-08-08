@@ -29,6 +29,7 @@ Since choreonoid rosplugin depends on ROS, please install ROS first.
 ## Installation
 
 Once you have set up your catkin workspace and successfully build all four packages `choreonoid`,`choreonoid_rosplugin`,`choreonoid_ros_samples`, and `choreonoid_joy`,
+change the file path in [readTrajc.hpp](https://github.com/Charvelau/walk_stablization_controller/blob/ade8d0b73cb45e6ec67332e89b8e4d5fdef4c1a9/src/readTraject.hpp#L12) to the absolute path of `catkin_ws/src/walk_stablization_controller/src/sample.txt`, then 
 
   ```
   cd /to/your/catkin_ws/src/dir
