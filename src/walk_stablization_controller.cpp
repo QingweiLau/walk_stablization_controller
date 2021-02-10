@@ -575,7 +575,7 @@ void estimation(){
       log(zmp,rf_filtered,lf_filtered);
       moveRLeg();
       moveLLeg();
-      ioBody->rootLink()->setPosition(base->position());
+      //ioBody->rootLink()->setPosition(base->position());
       ioBody->calcForwardKinematics();
       estimation();
       Vector3 cp_marker=cpcal();
